@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+<nav class="navbar navbar-expand-lg navbar-inverse fixed-top" id="nav">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle bg-danger" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img id="image" src="buildlogo.png">
+          </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home"> Home</a></li>
+        <li><a href="#register"> Register </a></li>
+        <li><a href="#mentors"> Mentors</a></li>
+        <li><a href="#participants">Participants</a></li>
+      </ul>
+    </div>
+  </div>
+  <a name="home"></a>
+  <div id="home" class="container"> 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" id="carousel">
+        <div class="item active">
+          <img src="carousel.png" alt="Build my web carousel1">
+        </div>
+  
+        <div class="item" id="carousal">
+          <img src="carousel2.png" alt="Build my web carousel1">
+        </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div>
+      <h1>Join us</h1>
+      <h4>Pygrammers is a community of python enthusiast with similar idealogies and interest.</h4>
+      <div>
+      <center><a href="https://t.me/pygrammers" class="btn btn-info" role="button" id="telegram">Telegram</a></center><br><br>
+  </div>
+  </div>
+  <a name="register"></a>
+  <div class="container" id="register">
+    <form class="form-horizontal" action="/action_page.php">
+      <div class="form-group">
+          <center><h2>Form</h2></center>
+          <label class="control-label col-sm-2" id="center">Name</label>
+          <div class="col-sm-10">
+          <input type="text" class="form-control">
+        </div>
+        <label class="control-label col-sm-2" id="center">Mobile Number</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control">
+        </div>
+        <label class="control-label col-sm-2" id="center">Email Address</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control">
+        </div>
+        <label class="control-label col-sm-2" id="center">Company/Institution Name</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control">
+        </div>
+      </div>
+      <div class="custom-file">
+          <label class="control-label col-sm-2" for="custom-file">Upload a short video or image of hand written sheet showing your interest to join build.myweb</label><br>
+          <input type="file" class="custom-file-input">
+          <label class="custom-file-label" for="customFile"></label>
+        </div>
+        <select class="custom-select" id="event">
+          <option selected>Have you attended any pygrammers event before?!</option>
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+        </select>
+      <div class="form-group">        
+        <div class="col-sm-offset-2 col-sm-10"><br>
+          <center><button id="button" class="btn btn-secondary btn-lg btn-block">Submit form</button></center>
+        </div>
+      </div>
+    </form>
+  </div>
+  <a name="mentors"></a>
+  <div id="teachers">
+    <h2 align="center"> Mentors</h2>
+    </div>
+    <div class="row">
+    <div id="teachers" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
+    <center><img src="mysir.jpg" height="140px" width="210px"></center>
+    <p>"Better than a thousand days of diligent study is one day with a great Teacher."</p>
+    </div>
+    
+    <div id="teachers" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
+    <center><img src="mysir.jpg" height="140px" width="210px"></center>
+    <p>"Better than a thousand days of diligent study is one day with a great Teacher."</p>
+    </div>
+    
+    
+    <div id="teachers" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
+    <center><img src="mysir.jpg" height="140px" width="210px"></center>
+    <p>"Better than a thousand days of diligent study is one day with a great Teacher."</p>
+    </div>
+    
+    <div id="teachers" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
+    <center><img src="mysir.jpg" height="140px" width="210px" ></center>
+    <p>"Better than a thousand days of diligent study is one day with a great Teacher."</p>
+    </div>
+    <a name="participants"></a>
+    <div id="Participants">
+        <center><h2>Participants</h2></center>
+    </div><br>
+    <div class="table">
+        <table border="2">
+        <tr>
+            <th>S.No</th>
+            <th>Participants</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nasmaan</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Fathima Najiya</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>Hashim</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Rahila</td>
+        </tr>
+        </table>
+    </div>
+    <div class="text-center">
+       
+            <footer id="footer"> 
+                <img src="footer-1.png" width="270px" height="55px">
+            </footer>
+    </div>       
+</body>
+</html>
+
